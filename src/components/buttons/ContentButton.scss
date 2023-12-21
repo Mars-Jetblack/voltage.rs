@@ -11,9 +11,15 @@
 
 .content-button:hover{
     background-color: $secondary-color;
+    animation-name: content-hover-animation;
+    animation-duration: 0.2s;
 }
 
 .content-button:active{
-    color: grey;
-    background-color: $primary-color;
+    background-color: $active-secondary-color;
+}
+
+@keyframes content-hover-animation{
+    0% {background-color: $primary-color;}
+    100% {background-color: $secondary-color;}
 }
