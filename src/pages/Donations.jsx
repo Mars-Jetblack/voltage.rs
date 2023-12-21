@@ -1,5 +1,5 @@
 import React from "react";
-import { WhiteSpace, LineSeparator, Image } from "../components/supports";
+import { WhiteSpace, LineSeparator } from "../components/supports";
 import Footer from "../components/containers/Footer";
 
 const Donations = () =>{

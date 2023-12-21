@@ -1,6 +1,5 @@
 import "./NavBar.scss";
 import "./DropdownMenu.scss";
-import { Image, Grid, WhiteSpace, GridItem } from "../supports";
 import { Link } from "react-router-dom";
 import React from "react";
 

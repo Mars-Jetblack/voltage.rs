@@ -10,7 +10,7 @@ const Footer = () =>{
         
        
         <h2>Contact</h2>
-        For technical issues only
+        <div>For technical issues only</div>
         <WhiteSpace height="50"/>
         <Image src="/images/marsjetblack-logo.png" height="50"/>
         <h4>Mars#4856</h4> 

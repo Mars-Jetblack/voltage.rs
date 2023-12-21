@@ -4,7 +4,6 @@ import Facade from "../components/containers/Facade";
 import Footer from "../components/containers/Footer";
 import { WhiteSpace, LineSeparator, Image, Grid, GridItem } from "../components/supports";
 import ImageButton from "../components/buttons/ImageButton";
-import ContentButton from "../components/buttons/ContentButton";
 
 const Home = () =>{
     const [scrollPosition, setScrollPosition] = useState(0);

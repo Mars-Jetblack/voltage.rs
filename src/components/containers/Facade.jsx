@@ -1,4 +1,3 @@
-import { WhiteSpace, Image } from "../supports";
 import { useState, useEffect } from "react";
 import "./Facade.scss";
 

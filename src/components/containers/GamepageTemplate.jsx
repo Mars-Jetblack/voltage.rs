@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import "../../styles/shared.scss";
 import Facade from "./Facade";
 import ContentButton from "../buttons/ContentButton";
-import { WhiteSpace, LineSeparator } from "../supports";
+import { WhiteSpace } from "../supports";
 import Footer from "./Footer";
 
 const GamepageTemplate = ({
