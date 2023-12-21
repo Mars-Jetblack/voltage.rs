@@ -11,7 +11,7 @@ const ImageButton = ({imgSrc, imgWidth, imgHeight, pathTarget}) =>{
     
 
     return(
-        <a linkTo={pathData.href} className="image-button">
+        <a href={pathData.href} className="image-button">
             <img src={imgSrc} width={imgWidth} height={imgHeight} alt=""></img>
         </a>
     );
