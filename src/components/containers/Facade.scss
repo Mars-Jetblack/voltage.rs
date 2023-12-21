@@ -1,0 +1,21 @@
+.facade{
+    color: white;
+    min-height: 50vh; /*box height*/
+    margin-top: -45px;
+    padding: 0px;
+    /*center text horizontally and vertically*/
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /*column*/
+    flex-direction: column; /*display children ina column*/
+
+    /*background*/
+    background: black;
+    
+    background-repeat: no-repeat; /*prevent background from looping itself*/
+    background-size: cover; /*adjust the size of the background image*/
+    background-position: center center;
+    background-attachment: fixed;
+     /*keeps the background image in its position*/
+}

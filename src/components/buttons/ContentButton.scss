@@ -1,0 +1,19 @@
+@import "../../styles/shared.scss";
+
+.content-button{
+    color: white !important;
+    background-color: $primary-color;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+.content-button:hover{
+    background-color: $secondary-color;
+}
+
+.content-button:active{
+    color: grey;
+    background-color: $primary-color;
+}

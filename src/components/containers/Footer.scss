@@ -1,0 +1,17 @@
+@import "../../styles/shared.scss";
+
+#footer{
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    background-color: $primary-color;
+    color: $text-color;
+}
+
+.footer-column{
+    display: flex;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+

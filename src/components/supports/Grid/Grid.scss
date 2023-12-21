@@ -1,0 +1,14 @@
+@media (max-width: 1000px) {
+    .gallery{
+        .grid-container {
+            grid-template-columns: repeat(1, 1fr) !important;
+        }
+    }
+}
+
+.grid-item{
+    border-radius: 1px;
+    color: black;
+    padding: 0px;
+    text-align: center;
+}

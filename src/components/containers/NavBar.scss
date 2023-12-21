@@ -1,0 +1,69 @@
+@import "../../styles/shared.scss";
+
+#navigation_bar{
+    position: fixed;
+    top: 0;
+    height: 30px;
+    width: 100%;
+    background-color: $primary-color;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    padding: 10px;
+    margin: 0px;
+    color: white;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    .nav-button{
+        font-size: 0.45rem;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 10px;
+        max-height: 10px;
+        font-size: 10px;
+            text-decoration: none; 
+            color: white;
+            font-weight: bold;
+            
+    }
+
+    .nav-button:hover{
+        background-color: $hover-color;
+        animation: hover-animation;
+        animation-duration: 0.2s;
+    }
+    .nav-button:active{
+        background-color: $active-color;
+    }
+
+    @keyframes hover-animation{
+        0% {background-color: $primary-color;}
+        100% {background-color: $hover-color;}
+    }
+}
+.separator {
+    color: #333; /* Match the color of your text */
+    margin-left: 1px;
+}
+
+
+.nav-logo{
+    width: 50px;
+}
+
+@media (max-width: 1000px){
+    .nav-logo{
+        display: none;
+   }
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+    margin-right: 10px;
+}
+  
