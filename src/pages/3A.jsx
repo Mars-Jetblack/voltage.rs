@@ -7,7 +7,7 @@ const BurninRubber3A = () =>{
             gameTitle={"Burnin' Rubber 3A"}
             gameDescription={"Dominate once again the world in this expanded version of Burnin' Rubber 3"}
             embedYouTubeId={"mEWDQT-C0NA?si=VmY4-PZI2lftkSDl"}
-            downloadPath={"https://www.mediafire.com/file/f0nsle3g7kablpb/BR+NitroStream+(By+Mars).rar/file"}
+            downloadPath={"https://www.mediafire.com/file/nkiaqt7ut6k5ojk/Burnin%2527_Rubber_3A_%2528By_Mars%2529.rar/file"}
             gameVersion={"1.0"}
             versionDate={"2023-03"}
         />  
