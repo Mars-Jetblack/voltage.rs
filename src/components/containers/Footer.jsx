@@ -23,7 +23,7 @@ const Footer = () =>{
             <div className="footer-text">// © Voltage.Resolutions // Mars Jetblack 2023</div>
             
             <WhiteSpace height="10"/>
-            <disclaimer> Games use Burnin' Rubber series by XformGames as their base. Additional distribution outside of Voltage.res may be done by LegacyShockwave.</disclaimer>
+            <disclaimer> Games use Burnin' Rubber series by XformGames as their base. Additional distribution outside of Voltage.rs may be done by LegacyShockwave.</disclaimer>
 
         </div>
         
