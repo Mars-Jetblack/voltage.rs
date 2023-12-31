@@ -4,6 +4,36 @@ import Facade from "./Facade";
 import ContentButton from "../buttons/ContentButton";
 import { WhiteSpace } from "../supports";
 import Footer from "./Footer";
+import { Link } from 'react-router-dom';
+
+
+function generateEndOfSupportText(endOfSupportDate){
+  const currentDate = new Date();
+
+  console.log("Today's date is " + currentDate);
+  console.log("End of support date is " + endOfSupportDate);
+  
+
+  const currentDateObject = new Date(currentDate);
+  const endOfSupportDateObject = new Date(endOfSupportDate);
+  const options = { year: 'numeric', month: 'long', day: 'numeric' };
+  const formattedDate = endOfSupportDateObject.toLocaleDateString('en-US', options);
+  
+  let endOfSupportText = " ";
+  
+  if (endOfSupportDate != null){
+    endOfSupportText = "✕ Technical support ends on " + formattedDate;
+    
+    if (currentDateObject > endOfSupportDateObject) {
+      endOfSupportText = "✕ Game is available, but technical support has ended on " + formattedDate;
+      console.log("End of support has been reached");
+    } 
+    else {
+      console.log("Support is still ongoing");
+    }
+  }
+  return endOfSupportText;
+}
 
 const GamepageTemplate = ({
   backgroundPng,
@@ -12,7 +42,8 @@ const GamepageTemplate = ({
   embedYouTubeId,
   downloadPath,
   gameVersion,
-  versionDate
+  versionDate,
+  endOfSupportDate
 }) => {
   const backgroundPath = "/images/" + backgroundPng + ".png";
   const embedYouTubePath = "https://www.youtube.com/embed/" + embedYouTubeId;
@@ -35,6 +66,8 @@ const GamepageTemplate = ({
 
   const maxScroll = 1000; // Adjust this value to control the darkness intensity
   const darkness = Math.min(scrollPosition / maxScroll, 1);
+
+  const endOfSupportText = generateEndOfSupportText(endOfSupportDate);
 
   // Calculate the darkness intensity and set the filter property
   const darkFilter = `brightness(${1 - darkness})`;
@@ -66,6 +99,9 @@ const GamepageTemplate = ({
             ⚙ {gameVersion} {versionDateText}
           </ver>
           <ver>⚠ Please check if your game version is up to date</ver>
+          <br/>
+          <Link to={"/endofsupport"}><eosl>{endOfSupportText}</eosl></Link>
+          
           <WhiteSpace height="10" />
           </div>
           <WhiteSpace height="30" />

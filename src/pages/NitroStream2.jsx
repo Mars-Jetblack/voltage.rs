@@ -10,6 +10,7 @@ const NitroStream2 = () =>{
             downloadPath={"https://www.mediafire.com/file/dmvns23zj6zf915/BR_NitroStream_2_Sabotage_%2528By_Mars%2529.rar/file"}
             gameVersion={"3.01"}
             versionDate={"2023-10"}
+            endOfSupportDate={"2024-03-12"}
         />  
     );
 };

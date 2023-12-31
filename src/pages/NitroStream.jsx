@@ -10,6 +10,7 @@ const NitroStream = () =>{
             downloadPath={"https://www.mediafire.com/file/f0nsle3g7kablpb/BR+NitroStream+(By+Mars).rar/file"}
             gameVersion={"2.0"}
             versionDate={"2022-09"}
+            endOfSupportDate={"2024-01-11"}
         />  
     );
 };

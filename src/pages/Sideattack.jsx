@@ -10,6 +10,7 @@ const Sideattack = () =>{
             downloadPath={"https://www.mediafire.com/file/meemfk7fhb1adak/Burnin%27+Rubber+Sideattack+(By+Mars).rar/file"}
             gameVersion={"2.0"}
             versionDate={"2021-03"}
+            endOfSupportDate={"2024-02-02"}
         />  
     );
 };

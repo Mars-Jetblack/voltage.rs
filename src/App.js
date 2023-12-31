@@ -9,6 +9,7 @@ import NitroStream3 from "./pages/NitroStream3";
 import BurninRubber3A from "./pages/3A";
 import BurninRubber5A from "./pages/5A";
 import Donations from "./pages/Donations";
+import EOSL from "./pages/EOSL";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/5a" element={<BurninRubber5A/>}/>
         <Route path="/nitrostream3" element={<NitroStream3/>}/>
         <Route path="/donate" element={<Donations/>}/>
+        <Route path="/endofsupport" element={<EOSL/>}/>
       </Routes>
     </BrowserRouter>
   );

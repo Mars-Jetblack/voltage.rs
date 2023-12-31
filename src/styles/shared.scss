@@ -54,8 +54,16 @@ $text-color: white;
     }
 }
 
+.big-title-text{
+    font-size: 2.5rem;
+}
+
 .giant-title-text{
     font-size: 4rem;
+}
+
+.eosl-clarification{
+    padding: 90px;
 }
 
 /*elements*/
@@ -82,6 +90,16 @@ ver{
     text-align: center !important;
     font-size: 0.9rem;
     color: rgb(255, 255, 255);
+}
+
+eosl{
+    align-items: center;
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center !important;
+    font-size: 0.9rem;
+    color: orange;
 }
 
 disclaimer{
