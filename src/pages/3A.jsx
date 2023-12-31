@@ -10,6 +10,7 @@ const BurninRubber3A = () =>{
             downloadPath={"https://www.mediafire.com/file/nkiaqt7ut6k5ojk/Burnin%2527_Rubber_3A_%2528By_Mars%2529.rar/file"}
             gameVersion={"1.0"}
             versionDate={"2023-03"}
+            endOfSupportDate={"2024-06-02"}
         />  
     );
 };
