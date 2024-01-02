@@ -20,7 +20,7 @@ const Footer = () =>{
         <ContentButton buttonText={"♡ Donate"} pathTarget={"/donate"}/>
 
         <WhiteSpace height="50"/>
-            <div className="footer-text">// © Voltage.Resolutions // Mars Jetblack 2023</div>
+            <div className="footer-text">// © Voltage.Resolutions // Mars Jetblack 2024</div>
             
             <WhiteSpace height="10"/>
             <disclaimer> Games use Burnin' Rubber series by XformGames as their base. Additional distribution outside of Voltage.rs may be done by LegacyShockwave.</disclaimer>
